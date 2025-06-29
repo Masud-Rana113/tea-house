@@ -3,7 +3,298 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/8e5d89616f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./output.css" />
     <title>Tea House</title>
   </head>
-  <body></body>
+  <body>
+    <header class="w-[45%] mx-auto">
+      <div class="hero mt-7">
+        <div class="relative flex-col mx-0 hero-content lg:flex-row-reverse">
+          <img
+            src="./images/banner.png"
+            class="relative max-w-sm rounded-lg -right-8"
+          />
+          <div
+            class="absolute flex items-center gap-4 px-4 py-2 bg-white rounded-lg shadow-md right-36 bottom-10"
+          >
+            <i class="text-3xl text-yellow-500 fa-solid fa-star"></i>
+            <div>
+              <h1 class="text-3xl">5.00</h1>
+              <p class="">Trust Pilot Ratings</p>
+            </div>
+          </div>
+
+          <div class="w-[50%] relative -left-8">
+            <h1 class="font-bold text-7xl">
+              It's good <br />
+              tea time at The Tea House
+            </h1>
+            <p class="py-6 text-gray-500">
+              Tea and Botanical Solutions Supplier Give Optimum <br />
+              Satisfaction To Your Taste Buds. Explore More
+            </p>
+            <button
+              class="font-bold border-none rounded-lg btn btn-primary bg-gradient-to-r from-orange-400 to-red-600 h-14"
+            >
+              Explore more
+              <i class="font-extrabold fa-solid fa-arrow-right -rotate-50"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- our products -->
+      <div class="mt-40 mx-auto hero w-[70%]">
+        <div class="flex-col px-0 text-center hero-content">
+          <div class="max-w-md">
+            <h1 class="text-5xl font-bold">Our products</h1>
+            <p class="py-6 text-gray-500">
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
+              et a id nisi.
+            </p>
+          </div>
+          <div class="flex gap-6 w-[100%] mb-40 card-section">
+            <!-- card 1 -->
+            <div
+              class="py-4 rounded-lg shadow-md card bg-gradient-to-t from-green-50 to-purple-50 w-96"
+            >
+              <figure>
+                <img src="./images/tea-1.png" alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="block text-center card-title">Milk Tea</h2>
+                <p>Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div
+              class="py-4 rounded-lg shadow-md card bg-gradient-to-t from-green-50 to-purple-50 w-96"
+            >
+              <figure>
+                <img src="./images/tea-2.png" alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="block text-center card-title">Milk Tea</h2>
+                <p>Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+            <!-- card 3 -->
+            <div
+              class="py-4 rounded-lg shadow-md card bg-gradient-to-t from-green-50 to-purple-50 w-96"
+            >
+              <figure>
+                <img src="./images/tea-3.png" alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="block text-center card-title">Milk Tea</h2>
+                <p>Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+            <!-- card 4 -->
+            <div
+              class="py-4 rounded-lg shadow-md card bg-gradient-to-t from-green-50 to-purple-50 w-96"
+            >
+              <figure>
+                <img src="./images/tea-4.png" alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="block text-center card-title">Milk Tea</h2>
+                <p>Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- great tea -->
+      <div class="w-[77%] mb-40 hero mx-auto">
+        <div class="flex-col justify-between hero-content lg:flex-row">
+          <div class="grid w-[60%] grid-cols-2 gap-12">
+            <!-- container -->
+            <div
+              class="w-56 h-32 rounded-md bg-gradient-to-br from-red-300 to-gray-50"
+            ></div>
+            <div
+              class="grid w-56 row-span-2 rounded-md bg-gradient-to-br from-red-300 to-gray-50"
+            >
+              <img src="./images/fresh-1.png" alt="" />
+            </div>
+            <div
+              class="grid w-56 row-span-2 rounded-md bg-gradient-to-br from-gray-300 to-gray-50"
+            >
+              <img src="./images/fresh-2.png" alt="" />
+            </div>
+            <div
+              class="w-56 h-32 rounded-md bg-gradient-to-br from-gray-300 to-gray-50"
+            ></div>
+          </div>
+          <div class="w-[50%]">
+            <h1 class="text-5xl font-bold">Great Tea, Freshly Presented</h1>
+            <p class="py-6">
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
+              et a id nisi.
+            </p>
+            <h1 class="mb-3 text-2xl text-gray-800">Unique Taste</h1>
+            <p class="mb-8">
+              A Unique and different style from other teapots gives a luxurious
+              and minimalist impression
+            </p>
+            <h1 class="mb-3 text-2xl text-gray-800">Premium Quality</h1>
+            <p class="">
+              Premium Quality that makes tea more elegant and more durable when
+              you use it.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- meet our -->
+      <div
+        class="relative w-[45%] mx-auto mb-40 rounded-lg bg-gradient-to-l from-red-700 to-orange-500 hero"
+      >
+        <div
+          class="relative flex-col justify-between p-9 hero-content lg:flex-row-reverse"
+        >
+          <!-- card container -->
+          <div class="relative - -right-30">
+            <!-- fist card -->
+            <div class="relative w-10/12 p-6 mb-10 bg-white rounded-lg">
+              <img
+                src="./images/client.png"
+                class="absolute border-2 border-white -top-6 -left-6 rounnded-full"
+                alt=""
+              />
+              <p class="py-6 text-gary-500">
+                Provident cupiditate voluptatem et in. Quaerat fugiat ut
+                assumenda excepturi exercitationem quasi.
+              </p>
+              <h1 class="text-3xl font-bold">Hello there</h1>
+              <p class="py-6 text-gray-500">be smart and go ahead</p>
+            </div>
+            <!-- second card -->
+            <div class="relative w-10/12 p-6 mb-4 bg-white rounded-lg">
+              <img
+                src="./images/client.png"
+                class="absolute border-2 border-white -top-6 -left-6 rounnded-full"
+                alt=""
+              />
+              <p class="py-6 text-gary-500">
+                Provident cupiditate voluptatem et in. Quaerat fugiat ut
+                assumenda excepturi exercitationem quasi.
+              </p>
+              <h1 class="text-3xl font-bold">Hello there</h1>
+              <p class="py-6 text-gray-500">be smart and go ahead</p>
+            </div>
+            <!-- 3 card -->
+            <div
+              class="absolute w-10/12 p-6 mb-4 bg-white rounded-lg -left-24 top-28"
+            >
+              <img
+                src="./images/client.png"
+                class="absolute border-2 border-white -top-6 -left-6 rounnded-full"
+                alt=""
+              />
+              <p class="py-6 text-gary-500">
+                Provident cupiditate voluptatem et in. Quaerat fugiat ut
+                assumenda excepturi exercitationem quasi.
+              </p>
+              <h1 class="text-3xl font-bold">Hello there</h1>
+              <p class="py-6 text-gray-500">be smart and go ahead</p>
+            </div>
+          </div>
+          <!-- text container -->
+          <div class="w-[45%]">
+            <h1 class="text-5xl font-bold text-white">
+              Great Tea, Freshly Presented
+            </h1>
+            <p class="py-6 text-white">
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
+              et a id nisi.
+            </p>
+            <button
+              class="px-6 py-3 font-bold text-orange-500 bg-white rounded-lg"
+            >
+              See all
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="p-10 px-190 bg-red-50">
+      <div class="flex justify-between px-6 mb-20 footer-head">
+        <img src="./images/cup.png" alt="" />
+        <div class="flex items-center justify-center gap-3 header-foot">
+          <p class="text-2xl">Ready to get started?</p>
+          <button
+            class="h-16 text-2xl font-bold rounded-lg btn btn-secondary bg-gradient-to-l from-red-600 to-orange-600"
+          >
+            Get Started
+          </button>
+        </div>
+      </div>
+      <div
+        class="justify-between p-10 px-6 bg-transparent footer sm:footer-horizontal text-base-content"
+      >
+        <nav>
+          <h6 class="text-xl text-black footer-title">Services</h6>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+          <h6 class="text-xl text-black footer-title">Company</h6>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <h6 class="text-xl text-black footer-title">Legal</h6>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+        <form>
+          <h6 class="text-xl text-black footer-title">
+            Subscribe to our newsletter
+          </h6>
+          <fieldset class="w-80">
+            <div class="gap-4 join">
+              <input
+                type="text"
+                placeholder="Email Address"
+                class="h-12 pl-0 bg-transparent border-0 border-b-2 border-black w-50 placeholder:text-xl input"
+              />
+              <button
+                class="w-12 h-12 border-none rounded-full btn btn-primary bg-gradient-to-l from-red-600 to-orange-600 join-item"
+              >
+                <i class="text-2xl fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+            <div class="mt-8 social">
+              <i class="mr-4 text-2xl fa-brands fa-square-facebook"></i>
+              <i class="mr-4 text-2xl fa-brands fa-square-instagram"></i>
+              <i class="mr-4 text-2xl fa-brands fa-square-twitter"></i>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <p class="text-xl text-center">
+        © 2027 UIDesign.to - All rights reserved.
+      </p>
+    </footer>
+  </body>
 </html>
